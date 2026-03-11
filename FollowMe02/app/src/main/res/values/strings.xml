@@ -1,5 +1,9 @@
 <resources>
+
+    <!-- App -->
     <string name="app_name">FollowMe02</string>
+
+    <!-- ================= WORKOUT DRAFT DEMO ================= -->
 
     <!-- Screen -->
     <string name="workout_draft_demo_title">Workout draft demo</string>
@@ -19,7 +23,7 @@
     <!-- Button -->
     <string name="btn_save_to_draft">Save to draft</string>
 
-    <!-- Errors (midlertidige) -->
+    <!-- Errors -->
     <string name="error_invalid_date_millis">Dato er ugyldig akkurat nå. Bruk millis midlertidig.</string>
     <string name="error_activity_type_required">Treningstype må fylles ut.</string>
     <string name="error_distance_required">Distance is required.</string>
@@ -32,4 +36,49 @@
     <string name="draft_type_prefix">Draft activityType:</string>
     <string name="dash">-</string>
     <string name="km_suffix">km</string>
+
+    <!-- ================= PROFILE SCREEN ================= -->
+
+    <!-- Header -->
+    <string name="profile_title">Your Profile 👤</string>
+    <string name="profile_subtitle">Track your progress and show off your journey!</string>
+    <string name="profile_motivation">Keep moving toward your next goal.</string>
+
+    <!-- Badges -->
+    <string name="profile_level">Level</string>
+    <string name="profile_points">Points</string>
+
+    <!-- Buttons -->
+    <string name="profile_edit_button">Edit Profile</string>
+    <string name="profile_achievements_button">Achievements</string>
+
+    <!-- Stats -->
+    <string name="profile_total_km">Total km</string>
+    <string name="profile_workouts">Workouts</string>
+    <string name="profile_streak">Streak</string>
+    <string name="profile_team">Team</string>
+
+    <!-- Stat values -->
+    <string name="profile_total_km_value">%1$s km</string>
+    <string name="profile_streak_days">%1$d days</string>
+
+    <!-- Journey -->
+    <string name="profile_current_journey_goal">Current Journey Goal</string>
+    <string name="profile_goal_route">Narvik to Tromsø</string>
+    <string name="profile_goal_progress">%1$d / %2$d km</string>
+    <string name="profile_goal_remaining">%1$d km left to reach Tromsø!</string>
+
+    <!-- Details -->
+    <string name="profile_details_title">Profile Details</string>
+    <string name="profile_favorite_activity">Favorite activity</string>
+    <string name="profile_location">Location</string>
+    <string name="profile_member_since">Member since</string>
+
+    <!-- Content Descriptions (Accessibility) -->
+    <string name="profile_avatar_content_description">Profile avatar</string>
+    <string name="profile_level_icon_content_description">Level</string>
+    <string name="profile_points_icon_content_description">Points</string>
+    <string name="profile_edit_icon_content_description">Edit profile</string>
+    <string name="profile_achievements_icon_content_description">Achievements</string>
+
 </resources>
