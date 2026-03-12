@@ -60,6 +60,8 @@ dependencies {
     implementation("io.github.jan-tennert.supabase:supabase-kt:3.0.0")
     implementation("io.ktor:ktor-client-android:3.0.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+    implementation("androidx.compose.material:material-icons-extended")
+    implementation("io.coil-kt:coil-compose:2.7.0")
     implementation(libs.androidx.navigation.compose)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

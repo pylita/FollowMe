@@ -26,6 +26,7 @@ import com.example.followme02.screen.achievements.AchievementsScreen
 import com.example.followme02.screen.distance.DistanceLogicScreen
 import com.example.followme02.screen.home.HomeScreen
 import com.example.followme02.screen.profile.ProfileScreen
+import com.example.followme02.screen.profile.fakeProfileUiState
 import com.example.followme02.screen.social.SocialScreen
 import com.example.followme02.ui.WorkoutScreen
 
@@ -79,7 +80,7 @@ fun FollowMeApp() {
             }
 
             composable("profile") {
-                ProfileScreen()
+                ProfileScreen(uiState = fakeProfileUiState)
             }
         }
     }
